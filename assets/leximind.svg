@@ -1,0 +1,56 @@
+﻿<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="85" y1="40" x2="1120" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07162E"/>
+      <stop offset="0.58" stop-color="#162B57"/>
+      <stop offset="1" stop-color="#4B2C75"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="164" y1="154" x2="1037" y2="556" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#E4E7FF" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="chat" x1="245" y1="200" x2="950" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#90B7FF"/>
+      <stop offset="1" stop-color="#AF8CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="120" width="960" height="470" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#030D1B" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/>
+  <circle cx="1060" cy="140" r="150" fill="#8C7DFF" fill-opacity="0.16"/>
+  <circle cx="150" cy="145" r="120" fill="#60E2FF" fill-opacity="0.12"/>
+  <g opacity="0.12">
+    <path d="M0 120H1200" stroke="#C8D6F1"/>
+    <path d="M0 240H1200" stroke="#C8D6F1"/>
+    <path d="M0 360H1200" stroke="#C8D6F1"/>
+    <path d="M0 480H1200" stroke="#C8D6F1"/>
+    <path d="M0 600H1200" stroke="#C8D6F1"/>
+    <path d="M150 0V720" stroke="#C8D6F1"/>
+    <path d="M300 0V720" stroke="#C8D6F1"/>
+    <path d="M450 0V720" stroke="#C8D6F1"/>
+    <path d="M600 0V720" stroke="#C8D6F1"/>
+    <path d="M750 0V720" stroke="#C8D6F1"/>
+    <path d="M900 0V720" stroke="#C8D6F1"/>
+    <path d="M1050 0V720" stroke="#C8D6F1"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="160" y="150" width="880" height="420" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="210" y="250" fill="#1C2B4A" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">LexiMind AI</text>
+  <text x="210" y="300" fill="#54627C" font-family="Georgia, 'Times New Roman', serif" font-size="24">RAG chatbot for document Q&amp;A and conversational search</text>
+  <rect x="210" y="348" width="250" height="54" rx="27" fill="#EEF3FF"/>
+  <text x="254" y="383" fill="#2C3D64" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">LLM + FAISS</text>
+  <rect x="650" y="215" width="300" height="250" rx="28" fill="#0F1E39"/>
+  <rect x="680" y="252" width="170" height="38" rx="19" fill="url(#chat)"/>
+  <text x="724" y="277" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ask PDF</text>
+  <rect x="680" y="315" width="215" height="20" rx="10" fill="#D8E3F9"/>
+  <rect x="680" y="350" width="188" height="20" rx="10" fill="#D8E3F9"/>
+  <rect x="680" y="385" width="145" height="20" rx="10" fill="#8BB1FF"/>
+  <circle cx="607" cy="314" r="18" fill="#0F1E39"/>
+  <path d="M607 304V322M598 313H616" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M500 390C551 341 598 320 650 320" stroke="url(#chat)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 390L474 391M500 390L493 365" stroke="url(#chat)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="210" y="438" width="360" height="20" rx="10" fill="url(#chat)"/>
+  <rect x="210" y="474" width="290" height="20" rx="10" fill="url(#chat)" fill-opacity="0.8"/>
+</svg>

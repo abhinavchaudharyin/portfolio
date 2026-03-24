@@ -1,0 +1,53 @@
+﻿<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="48" x2="1120" y2="668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09162C"/>
+      <stop offset="0.58" stop-color="#14345F"/>
+      <stop offset="1" stop-color="#1E6780"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="150" y1="150" x2="1048" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#DAE6F7" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="pointer" x1="660" y1="286" x2="912" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#82A9FF"/>
+      <stop offset="1" stop-color="#78F0D0"/>
+    </linearGradient>
+    <filter id="shadow" x="115" y="118" width="968" height="476" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#040F20" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/>
+  <circle cx="1045" cy="120" r="150" fill="#7ED6FF" fill-opacity="0.14"/>
+  <circle cx="170" cy="620" r="150" fill="#8F84FF" fill-opacity="0.12"/>
+  <g opacity="0.12">
+    <path d="M0 120H1200" stroke="#D7E2F3"/>
+    <path d="M0 240H1200" stroke="#D7E2F3"/>
+    <path d="M0 360H1200" stroke="#D7E2F3"/>
+    <path d="M0 480H1200" stroke="#D7E2F3"/>
+    <path d="M0 600H1200" stroke="#D7E2F3"/>
+    <path d="M150 0V720" stroke="#D7E2F3"/>
+    <path d="M300 0V720" stroke="#D7E2F3"/>
+    <path d="M450 0V720" stroke="#D7E2F3"/>
+    <path d="M600 0V720" stroke="#D7E2F3"/>
+    <path d="M750 0V720" stroke="#D7E2F3"/>
+    <path d="M900 0V720" stroke="#D7E2F3"/>
+    <path d="M1050 0V720" stroke="#D7E2F3"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="150" y="150" width="900" height="424" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="205" y="240" fill="#192B4B" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">AI Virtual Mouse</text>
+  <text x="205" y="290" fill="#576680" font-family="Georgia, 'Times New Roman', serif" font-size="24">Hand gesture control using MediaPipe and OpenCV</text>
+  <rect x="205" y="336" width="245" height="52" rx="26" fill="#EDF4FD"/>
+  <text x="238" y="370" fill="#26385C" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">Computer Vision</text>
+  <rect x="682" y="212" width="280" height="240" rx="24" fill="#F8FBFF"/>
+  <path d="M788 270C808 244 846 241 866 267C874 278 875 296 872 309L856 378C854 390 843 398 831 398H821C806 398 793 385 793 370V319L780 360C777 369 769 375 760 375C747 375 737 363 741 351L772 273C775 265 781 259 788 270Z" fill="url(#pointer)"/>
+  <circle cx="912" cy="252" r="20" fill="#19385C"/>
+  <path d="M912 242V262M902 252H922" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M866 287L902 260" stroke="#9BC1FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M525 382C577 329 626 306 681 306" stroke="url(#pointer)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M525 382L503 382M525 382L518 360" stroke="url(#pointer)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="206" y="432" width="370" height="18" rx="9" fill="url(#pointer)"/>
+  <rect x="206" y="468" width="280" height="18" rx="9" fill="url(#pointer)" fill-opacity="0.8"/>
+</svg>

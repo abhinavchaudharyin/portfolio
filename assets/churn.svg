@@ -1,0 +1,56 @@
+﻿<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="50" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1C32"/>
+      <stop offset="0.48" stop-color="#133A63"/>
+      <stop offset="1" stop-color="#1B6A83"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="155" y1="150" x2="1040" y2="555" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#DDE8F4" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="line" x1="245" y1="470" x2="948" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79A7FF"/>
+      <stop offset="1" stop-color="#73F0D2"/>
+    </linearGradient>
+    <filter id="shadow" x="118" y="118" width="965" height="470" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#071325" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/>
+  <circle cx="1040" cy="135" r="150" fill="#75D6FF" fill-opacity="0.14"/>
+  <circle cx="180" cy="620" r="155" fill="#88A4FF" fill-opacity="0.14"/>
+  <g opacity="0.12">
+    <path d="M0 108H1200" stroke="#D3E2F1"/>
+    <path d="M0 216H1200" stroke="#D3E2F1"/>
+    <path d="M0 324H1200" stroke="#D3E2F1"/>
+    <path d="M0 432H1200" stroke="#D3E2F1"/>
+    <path d="M0 540H1200" stroke="#D3E2F1"/>
+    <path d="M0 648H1200" stroke="#D3E2F1"/>
+    <path d="M171 0V720" stroke="#D3E2F1"/>
+    <path d="M342 0V720" stroke="#D3E2F1"/>
+    <path d="M513 0V720" stroke="#D3E2F1"/>
+    <path d="M684 0V720" stroke="#D3E2F1"/>
+    <path d="M855 0V720" stroke="#D3E2F1"/>
+    <path d="M1026 0V720" stroke="#D3E2F1"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="155" y="150" width="890" height="420" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="205" y="242" fill="#1B2D4D" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Customer Churn</text>
+  <text x="205" y="292" fill="#53637D" font-family="Georgia, 'Times New Roman', serif" font-size="24">Predicting telecom retention risk with explainable data science</text>
+  <rect x="205" y="338" width="205" height="54" rx="27" fill="#EDF4FD"/>
+  <text x="245" y="374" fill="#273A5B" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">XGBoost</text>
+  <rect x="685" y="220" width="270" height="230" rx="24" fill="#F7FBFF"/>
+  <path d="M725 404L780 346L830 364L904 286" stroke="url(#line)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="725" cy="404" r="10" fill="#7DA7FF"/>
+  <circle cx="780" cy="346" r="10" fill="#7DA7FF"/>
+  <circle cx="830" cy="364" r="10" fill="#7DA7FF"/>
+  <circle cx="904" cy="286" r="10" fill="#73F0D2"/>
+  <path d="M724 432H906" stroke="#CAD8EB" stroke-width="4" stroke-linecap="round"/>
+  <path d="M724 432V250" stroke="#CAD8EB" stroke-width="4" stroke-linecap="round"/>
+  <rect x="240" y="428" width="340" height="18" rx="9" fill="url(#line)"/>
+  <rect x="240" y="462" width="294" height="18" rx="9" fill="url(#line)" fill-opacity="0.82"/>
+  <path d="M610 345C632 326 658 318 686 318" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M605 392C635 408 664 415 690 410" stroke="#9AB8E6" stroke-width="10" stroke-linecap="round"/>
+</svg>

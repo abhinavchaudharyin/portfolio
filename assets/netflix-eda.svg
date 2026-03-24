@@ -1,0 +1,58 @@
+﻿<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="74" y1="42" x2="1122" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101826"/>
+      <stop offset="0.54" stop-color="#22324C"/>
+      <stop offset="1" stop-color="#5F1620"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="150" y1="150" x2="1050" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFBFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#E6E9F7" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="235" y1="470" x2="955" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EAFFF"/>
+      <stop offset="0.52" stop-color="#90A6FF"/>
+      <stop offset="1" stop-color="#FF7C7C"/>
+    </linearGradient>
+    <filter id="shadow" x="116" y="118" width="968" height="476" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0B0F15" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/>
+  <circle cx="1012" cy="126" r="150" fill="#FF6B6B" fill-opacity="0.13"/>
+  <circle cx="180" cy="610" r="150" fill="#779CFF" fill-opacity="0.11"/>
+  <g opacity="0.1">
+    <path d="M0 120H1200" stroke="#D8DDEA"/>
+    <path d="M0 240H1200" stroke="#D8DDEA"/>
+    <path d="M0 360H1200" stroke="#D8DDEA"/>
+    <path d="M0 480H1200" stroke="#D8DDEA"/>
+    <path d="M0 600H1200" stroke="#D8DDEA"/>
+    <path d="M150 0V720" stroke="#D8DDEA"/>
+    <path d="M300 0V720" stroke="#D8DDEA"/>
+    <path d="M450 0V720" stroke="#D8DDEA"/>
+    <path d="M600 0V720" stroke="#D8DDEA"/>
+    <path d="M750 0V720" stroke="#D8DDEA"/>
+    <path d="M900 0V720" stroke="#D8DDEA"/>
+    <path d="M1050 0V720" stroke="#D8DDEA"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="150" y="150" width="900" height="424" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="205" y="242" fill="#202A45" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">Netflix Content Analysis</text>
+  <text x="205" y="292" fill="#59657D" font-family="Georgia, 'Times New Roman', serif" font-size="24">Exploratory data analysis on trends, genres, growth, and audience targeting</text>
+  <rect x="205" y="338" width="165" height="52" rx="26" fill="#F2F3FA"/>
+  <text x="247" y="372" fill="#313D5D" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">EDA</text>
+  <rect x="662" y="214" width="300" height="238" rx="24" fill="#FAFBFF"/>
+  <path d="M706 412V268" stroke="#CDD6E8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M706 412H920" stroke="#CDD6E8" stroke-width="4" stroke-linecap="round"/>
+  <rect x="735" y="338" width="30" height="74" rx="12" fill="#8EAFFF"/>
+  <rect x="787" y="310" width="30" height="102" rx="12" fill="#A598FF"/>
+  <rect x="839" y="286" width="30" height="126" rx="12" fill="#FF8B8B"/>
+  <path d="M734 294L785 280L838 300L900 250" stroke="url(#chart)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="734" cy="294" r="8" fill="#8EAFFF"/>
+  <circle cx="785" cy="280" r="8" fill="#A598FF"/>
+  <circle cx="838" cy="300" r="8" fill="#FF9A9A"/>
+  <circle cx="900" cy="250" r="8" fill="#FF6B6B"/>
+  <rect x="205" y="430" width="355" height="18" rx="9" fill="url(#chart)"/>
+  <rect x="205" y="466" width="285" height="18" rx="9" fill="url(#chart)" fill-opacity="0.8"/>
+</svg>

@@ -1,0 +1,56 @@
+﻿<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="86" y1="46" x2="1122" y2="674" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081427"/>
+      <stop offset="0.48" stop-color="#142F5A"/>
+      <stop offset="1" stop-color="#215D7A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="156" y1="150" x2="1043" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#DEE7F5" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="230" y1="460" x2="950" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CAFFF"/>
+      <stop offset="0.5" stop-color="#8EDCF1"/>
+      <stop offset="1" stop-color="#A788FF"/>
+    </linearGradient>
+    <filter id="shadow" x="118" y="118" width="964" height="476" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#06101E" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/>
+  <circle cx="1032" cy="126" r="150" fill="#79D6FF" fill-opacity="0.14"/>
+  <circle cx="170" cy="604" r="142" fill="#907EFF" fill-opacity="0.12"/>
+  <g opacity="0.11">
+    <path d="M0 120H1200" stroke="#D7E4F2"/>
+    <path d="M0 240H1200" stroke="#D7E4F2"/>
+    <path d="M0 360H1200" stroke="#D7E4F2"/>
+    <path d="M0 480H1200" stroke="#D7E4F2"/>
+    <path d="M0 600H1200" stroke="#D7E4F2"/>
+    <path d="M150 0V720" stroke="#D7E4F2"/>
+    <path d="M300 0V720" stroke="#D7E4F2"/>
+    <path d="M450 0V720" stroke="#D7E4F2"/>
+    <path d="M600 0V720" stroke="#D7E4F2"/>
+    <path d="M750 0V720" stroke="#D7E4F2"/>
+    <path d="M900 0V720" stroke="#D7E4F2"/>
+    <path d="M1050 0V720" stroke="#D7E4F2"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="155" y="150" width="890" height="424" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="205" y="240" fill="#1B2C4C" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">SynthexAI</text>
+  <text x="205" y="290" fill="#586780" font-family="Georgia, 'Times New Roman', serif" font-size="24">Three Minds. One Answer. Multi-LLM orchestration with live search, voice, and OCR</text>
+  <rect x="205" y="336" width="250" height="52" rx="26" fill="#EDF4FD"/>
+  <text x="243" y="371" fill="#27395B" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">Groq + Gemini + Mistral</text>
+  <rect x="670" y="210" width="300" height="250" rx="26" fill="#F8FBFF"/>
+  <circle cx="744" cy="284" r="28" fill="#8CAFFF"/>
+  <circle cx="820" cy="250" r="28" fill="#88D8F0"/>
+  <circle cx="890" cy="318" r="28" fill="#A58CFF"/>
+  <path d="M744 284L820 250L890 318L820 386L744 284Z" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M820 250V386" stroke="#C8D8EC" stroke-width="4" stroke-linecap="round"/>
+  <rect x="730" y="404" width="180" height="16" rx="8" fill="url(#accent)"/>
+  <path d="M515 392C574 332 629 308 682 308" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M515 392L490 392M515 392L507 367" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="205" y="430" width="370" height="18" rx="9" fill="url(#accent)"/>
+  <rect x="205" y="466" width="318" height="18" rx="9" fill="url(#accent)" fill-opacity="0.8"/>
+</svg>
